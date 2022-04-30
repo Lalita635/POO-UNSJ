@@ -13,7 +13,7 @@ class ViajeroFrecuente:
         self.__millas_acum = millas_acum
 
     def __str__(self):
-        return "Nro: {}, DNI: {}, Apellido y nombre: {}, {}".format(self.__num_viajero, self.__dni, self.__apellido, self.__nombre)
+        return "Nro: {}, DNI: {}, Apellido y Nombre: {} {}".format(self.__num_viajero, self.__dni, self.__apellido, self.__nombre)
 
     def cantidadTotaldeMillas(self):
         return self.__millas_acum

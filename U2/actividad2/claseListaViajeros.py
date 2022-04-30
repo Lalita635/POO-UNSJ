@@ -1,5 +1,6 @@
 import csv
-import ViajeroFrecuente
+
+from claseViajeroFrecuente import ViajeroFrecuente
 
 class ListaViajeros:
     __viajeros = []
