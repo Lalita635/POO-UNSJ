@@ -9,10 +9,10 @@ class registro:
         self.__presion = presion
 
     def getTemperatura(self):
-        return self.__temperatura
+        return float(self.__temperatura)
 
     def getHumedad(self):
-        return self.__humedad
+        return int(self.__humedad)
 
     def getPresion(self):
-        return self.__presion
+        return int(self.__presion)

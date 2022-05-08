@@ -35,3 +35,6 @@ class menu:
                 q = False
                 system("pause")
                 system("cls")
+            else:
+                print('Opcion no válida, reingrese opcion')
+                system("pause")
