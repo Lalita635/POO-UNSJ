@@ -1,8 +1,6 @@
-from ManejadorViajeroFrecuente import manejadorVF
+from menu import Menu
+
 
 if __name__ == '__main__':
-    m = manejadorVF()
-    m.cargarObjeto()
-    m.compara()
-    m.acumula()
-    m.canjea()
+    m = Menu()
+    m.get()

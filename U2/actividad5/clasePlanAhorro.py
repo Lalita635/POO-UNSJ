@@ -28,7 +28,7 @@ class PlanAhorro:
 
     def modificaPrecio(self, p2):
         self.__precio = p2
-        print('**-- El precio se modificó correctamente! --**')
+        print('**-- Precio Modificado! --**\n')
 
     def mostrar(self):
         return print('Código: {}, Modelo: {}, Versión: {}'.format(self.__codigo, self.__modelo, self.__version))
